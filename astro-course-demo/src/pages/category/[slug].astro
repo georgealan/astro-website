@@ -51,10 +51,7 @@ const { category, posts } = Astro.props;
       Join the Community and learn from Music Producers and Enthusiasts
     </p>
 
-    <div class="grid grid-cols-[auto,1fr] gap-x-14 gap-y-3 mb-16 max0lg:grid-cols-1">
-      <h2 class="font-bold text-5xl text-teal-900">Posts Tagged</h2>
-      <CategoryList categories={[category]} />
-    </div>
+    <CategoryList categories={[category]} title="Posts Tagged" />
 
     <div class="mb-12">
       <Pagination nextUrl="/blog/2" />
@@ -67,5 +64,3 @@ const { category, posts } = Astro.props;
     </div>
   </Main>
 </Layout>
-
-<!-- TODO: Continue in class 36 -->

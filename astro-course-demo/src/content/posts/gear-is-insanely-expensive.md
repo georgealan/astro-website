@@ -3,7 +3,7 @@ author: dwight-schrute
 categories: ["career advice"]
 date: 08/10/2021
 featured: false
-image: ../images/gear.jpg
+image: ../../../public/images/gear.jpg
 title: Gear is insanely expensive
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam magna vitae.
 ---

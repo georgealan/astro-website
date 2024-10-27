@@ -5,12 +5,12 @@ import { format } from "date-fns";
 // https://zod.dev/
 
 const postsCollection = defineCollection({
-  schema: z.object({
+  schema: ({image}) => z.object({
     author: z.string(),
     categories: z.array(z.string()),
     date: z.string().transform(str => format(new Date(str), 'MMMM d, yyyy')),
     featured: z.boolean().default(false),
-    image: z.string(),
+    image: image(),
     title: z.string(),
     description: z.string(),
   }),

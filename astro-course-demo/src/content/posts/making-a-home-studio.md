@@ -3,7 +3,7 @@ author: dwight-schrute
 categories: ["studio tips"]
 date: 08/10/2021
 featured: false
-image: ../images/studio.jpg
+image: ../../../public/images/studio.jpg
 title: Making a home studio
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam magna vitae.
 ---
